@@ -1,0 +1,12 @@
+[workspace]
+authors = ["ThaminduMiuranda <thaminduthilina@gmail.com>"]
+channels = ["conda-forge"]
+name = "harness-engineering-101"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+start = "python -c \"print('harness placeholder - replace with real entrypoint')\"" # Replace with entry
+
+[dependencies]
+python = "3.13.*"
